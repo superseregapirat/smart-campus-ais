@@ -1,0 +1,27 @@
+## Специфичные файлы для .NET / C#
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bincra/
+bin/
+obj/
+
+## Локальные настройки и кэш IDE (Visual Studio, Rider)
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.suo
+
+## Файлы баз данных и логов
+*.db
+*.sqlite
+*.log
+src/SmartCampus.Infrastructure/Data/*.db
+
+## Секреты и конфигурации среды разработки
+appsettings.Development.json
+*.local.json
+.env
